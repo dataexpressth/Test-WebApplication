@@ -2,7 +2,7 @@ name: Build and deploy .NET Core app to Windows WebApp dxth-test
 on:
   push:
     branches:
-    - master
+    - development
 env:
   AZURE_WEBAPP_NAME: dxth-test
   AZURE_WEBAPP_PACKAGE_PATH: Test-WebApplication/publish
